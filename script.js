@@ -68,3 +68,12 @@ const typed= new Typed('.multiple-text',{
     backDelay:1000,
     loop:true
 })
+
+<!-- Google tag (gtag.js) -->
+
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-S7H3GM5EBH');
